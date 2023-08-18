@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Photographe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="path/to/fancybox.min.css">
+    <script src="path/to/jquery.min.js"></script>
+    <script src="path/to/fancybox.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Portfolio</h1>
+        <div class="gallery">
+            <!-- Insérez vos images ici -->
+        </div>
+
+        <div class="gallery">
+            <img class="gallery-image" src="path/to/image1.jpg" alt="Image 1">
+            <img class="gallery-image" src="path/to/image2.jpg" alt="Image 2">
+            <img class="gallery-image" src="path/to/image3.jpg" alt="Image 3">
+            <img class="gallery-image" src="path/to/image1.jpg" alt="Image 1">
+            <img class="gallery-image" src="path/to/image2.jpg" alt="Image 2">
+            <img class="gallery-image" src="path/to/image3.jpg" alt="Image 3">
+            <img class="gallery-image" src="path/to/image1.jpg" alt="Image 1">
+            <img class="gallery-image" src="path/to/image2.jpg" alt="Image 2">
+            <img class="gallery-image" src="path/to/image3.jpg" alt="Image 3">
+            <!-- Ajoutez autant d'images que nécessaire -->
+        </div>
+    </main>
+
+
+
+    <footer>
+        <p>&copy; 2023 Photographe ABC. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $(".gallery-image").fancybox({
+                // Options de Fancybox
+                // Consultez la documentation de Fancybox pour plus d'options
+            });
+        });
+        </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
